@@ -80,7 +80,7 @@ img {
 
 /* 按鈕 */
 .button {
-    font-size: 1.5rem;
+    font-size: 1.375rem;
     background: #0bd;
     color: #fff;
     border-radius: 20px; /* 設定圓角 */
@@ -97,12 +97,11 @@ img {
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
-    min-height: 100vh;
-    min-width: 100vw;
 }
 
 #home {
     background-image: url(../images/mygo.png);
+    background-position: 50% 50%;
     min-height: 100vh;
     min-width: 100vw;
 }
