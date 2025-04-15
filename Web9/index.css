@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+h1 {
+    text-align: center;
+}
+
+.one {
+    text-shadow: 8px  6px 4px orange;
+}
+
+.two {
+    text-shadow: 10px  11px 5px gray,
+                 25px  23px 3px silver;
+}
