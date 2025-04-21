@@ -1,111 +1,96 @@
 @charset "UTF-8";
 
-/* 共通部分
-------------------------------- */
+/* 共通設定 ------------------------------- */
 html {
-    font-size: 100%; /* 瀏覽器預設字體大小，一般是16px */
+  font-size: 100%;
 }
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 1.7; /* 設定行高 */
-    color: rgb(3, 3, 3); /* 設定文字顏色 */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.7;
+  color: white;
 }
 
 a {
-    text-decoration: none; /* 去除超連結底線 */
+  text-decoration: none;
 }
 
 img {
-    max-width: 100%; /* 設定影像寬度上限為父元素的100% */
+  max-width: 100%;
 }
 
-/* HEADER
-------------------------------- */
-.logo {
-    width: 100px; /* 設定logo影像的寬度 */
-    margin-top: 14px; /* 視窗上方保持 14px 距離*/
-}
-
-.main-nav {
-    display: flex;
-    font-size: 1.25rem;
-    text-transform: uppercase; /* 英文字都大寫 */
-    margin-top: 34px;
-    list-style: none;
-}
-
-.main-nav li {
-    margin-left: 36px;
-}
-
-.main-nav a {
-    color: rgb(246, 242, 178);
-}
-
-.main-nav a:hover {
-    color: #0bd;
-}
-
-.page-header {
-    display: flex; /* 讓元素水平排列 */
-    justify-content: space-between; /* 把最初與最後元素放在父元素的左右兩端 */
-}
-
-.wrapper {
-    max-width: 100vw; /* 設定最大寬度 */
-    margin: 0 auto; /* 置中對齊*/
-    padding: 0 4%; /* 設定內側留白空間 */
-}
-
-/* HOME
-------------------------------- */
+/* HOME ------------------------------- */
 .home-content {
-    text-align: center; /* 文字置中對齊 */
-    margin-top: 10%; /* 上方留白 */
+  text-align: center;
+  margin-top: 10%;
 }
 
 .home-content p {
-    font-size: 1.125rem;
-    margin: 10px 0 42px;
+  font-size: 1.125rem;
+  margin: 10px 0 42px;
 }
 
-/* 標題 */
 .page-title {
-    font-size: 5rem;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    text-transform: uppercase;
-    font-weight: normal;
-}
-
-/* 按鈕 */
-.button {
-    font-size: 1.375rem;
-    background: #0bd;
-    color: #fff;
-    border-radius: 20px; /* 設定圓角 */
-    padding: 18px 32px;
-}
-
-.button:hover {
-    background: #0090aa;
-    color: rgb(246, 242, 178);
-}
-
-/* 大型背景影像 */
-.big-bg {
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
-}
-
-#home {
-    background-image: url(../images/mygo.png);
-    background-position: 50% 50%;
-    min-height: 100vh;
-    min-width: 100vw;
+  font-size: 5rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  font-weight: normal;
 }
 
 #home .page-title {
-    text-transform: none;
+  text-transform: none;
+}
+
+.button {
+  font-size: 1.375rem;
+  background: #0bd;
+  color: #fff;
+  border-radius: 20px;
+  padding: 18px 32px;
+}
+
+.button:hover {
+  background: #0090aa;
+  color: rgb(246, 242, 178);
+}
+
+/* 背景影像設定 ------------------------------- */
+.big-bg {
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+#home {
+  background-image: url(../images/mygo.png);
+  background-position: 50% 50%;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+/* 側欄選單 ------------------------------- */
+.offcanvas-end {
+  background-color: rgba(0, 0, 0, 0.95);
+  color: rgb(246, 242, 178);;
+  width: 250px;
+}
+
+.offcanvas-body a {
+  color: rgb(246, 242, 178);;
+  text-decoration: none;
+  display: block;
+  padding: 10px 0;
+  font-size: 1.1rem;
+}
+
+.offcanvas-body a:hover {
+  color: #0bd;
+}
+
+.menu-button {
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  color: rgb(246, 242, 178);;
+  margin-top: 25px;
 }
