@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+/* 共通設定 ------------------------------- */
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.7;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* HOME ------------------------------- */
+.home-content {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.home-content p {
+  font-size: 1.125rem;
+  margin: 10px 0 42px;
+}
+
+.page-title {
+  font-size: 5rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+#home .page-title {
+  text-transform: none;
+}
+
+.button {
+  font-size: 1.375rem;
+  background: #0bd;
+  color: #fff;
+  border-radius: 20px;
+  padding: 18px 32px;
+}
+
+.button:hover {
+  background: #0090aa;
+  color: rgb(246, 242, 178);
+}
+
+/* 背景影像設定 ------------------------------- */
+.big-bg {
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+#home {
+  background-image: url(../images/mygo.png);
+  background-position: 50% 50%;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+/* 側欄選單 ------------------------------- */
+.offcanvas-end {
+  background-color: rgba(0, 0, 0, 0.95);
+  color: rgb(246, 242, 178);;
+  width: 250px;
+}
+
+.offcanvas-body a {
+  color: rgb(246, 242, 178);;
+  text-decoration: none;
+  display: block;
+  padding: 10px 0;
+  font-size: 1.1rem;
+}
+
+.offcanvas-body a:hover {
+  color: #0bd;
+}
+
+.menu-button {
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  color: rgb(246, 242, 178);;
+  margin-top: 25px;
+}
