@@ -5,6 +5,11 @@ html {
   font-size: 100%;
 }
 
+header {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.7;
