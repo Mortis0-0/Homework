@@ -12,21 +12,25 @@
     </head>
     <body style="background-color: black;">
         <div class="container big-bg" id="contact">
-            <header class="page-header wrapper">
-                <h1><a href="index.html" style="display: flex; margin-top: 25px; color: rgb(246, 242, 178);">U1033022 陳品言</a></h1>
-                <nav class="navbar navbar-expand-md navbar-light">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbar1">
-                        <ul class="main-nav navbar-nav me-auto">
-                            <li><a href="role.html">有趣的女孩子</a></li>
-                            <li><a href="bang.html">樂團介紹</a></li>
-                            <li><a href="contact.html">我要抹茶百匯</a></li>
-                        </ul>
-                    </div>
-                </nav>
+            <!-- Header 和選單按鈕 -->
+            <header class="page-header wrapper d-flex justify-content-between align-items-center">
+                <h1>
+                    <a href="index.html" style="margin-top: 25px; color: rgb(246, 242, 178);">U1033022 陳品言</a>
+                </h1>
+                <button class="menu-button" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebarMenu">☰</button>
             </header>
+            <!-- 側欄 -->
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="sidebarMenu" aria-labelledby="sidebarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="sidebarLabel">選單</h5>
+                    <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <a href="role.html">有趣的女孩子</a>
+                    <a href="bang.html">樂團介紹</a>
+                    <a href="contact.html">我要抹茶百匯</a>
+                </div>
+            </div>
             <img src="images/eat.jpg">
         </div>
     </body>
