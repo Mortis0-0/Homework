@@ -20,4 +20,9 @@
 
 li {
     color: black;
+    list-style: none;
+}
+
+p {
+    font-size: 150%;
 }
