@@ -38,10 +38,42 @@
         </div>
         <!-- 按鈕切換角色 -->
         <div class="wrapper text-center my-4">
-            <button class="btn btn-info mx-2" onclick="showCharacter('anon')">千早愛音</button>
-            <button class="btn btn-info mx-2" onclick="showCharacter('tomorin')">高松燈</button>
-            <button class="btn btn-info mx-2" onclick="showCharacter('rikki')">椎名立希</button>
-            <button class="btn btn-info mx-2" onclick="showCharacter('soyorin')">長崎爽世</button>
+            <!-- 第一排 -->
+            <div class="d-flex justify-content-center flex-wrap mb-3">
+                <button class="btn btn-info mx-2 p-2" onclick="showCharacter('anon')">
+                    <img src="images/anon.png" alt="千早愛音" style="width: 50px; height: 50px;" />
+                </button>
+                <button class="btn btn-info mx-2 p-2" onclick="showCharacter('tomorin')">
+                    <img src="images/tomorin.png" alt="高松燈" style="width: 50px; height: 50px;" />
+                </button>
+                <button class="btn btn-info mx-2 p-2" onclick="showCharacter('rikki')">
+                    <img src="images/rikki.png" alt="椎名立希" style="width: 50px; height: 50px;" />
+                </button>
+                <button class="btn btn-info mx-2 p-2" onclick="showCharacter('soyorin')">
+                    <img src="images/soyorin.png" alt="長崎爽世" style="width: 50px; height: 50px;" />
+                </button>
+                <button class="btn btn-info mx-2 p-2" onclick="showCharacter('raane')">
+                    <img src="images/raane.png" alt="要樂奈" style="width: 50px; height: 50px;" />
+                </button>
+            </div>
+            <!-- 第二排 -->
+            <div class="d-flex justify-content-center flex-wrap">
+                <button class="btn btn-info mx-2 p-2" onclick="showCharacter('uika')">
+                    <img src="images/uika.png" alt="三角初華" style="width: 50px; height: 50px;" />
+                </button>
+                <button class="btn btn-info mx-2 p-2" onclick="showCharacter('mutsumi')">
+                    <img src="images/mutsumi.png" alt="若葉睦" style="width: 50px; height: 50px;" />
+                </button>
+                <button class="btn btn-info mx-2 p-2" onclick="showCharacter('saki')">
+                    <img src="images/saki.png" alt="豐川祥子" style="width: 50px; height: 50px;" />
+                </button>
+                <button class="btn btn-info mx-2 p-2" onclick="showCharacter('umiri')">
+                    <img src="images/umiri.png" alt="八幡海玲" style="width: 50px; height: 50px;" />
+                </button>
+                <button class="btn btn-info mx-2 p-2" onclick="showCharacter('nyamu')">
+                    <img src="images/nyamu.png" alt="祐天寺若麥" style="width: 50px; height: 50px;" />
+                </button>
+            </div>
         </div>
         <!-- 角色區塊 -->
         <!-- 阿農 -->
@@ -53,10 +85,13 @@
                 <div class="col-md-7">
                     <h3 style="color: rgb(212, 183, 54);">我愛木須龍啦</h3>
                     <ul>
-                    <li class="name">千早愛音</li>
-                    <li>CV:<a href="https://x.com/ttisrn_0710">立石凜</a></li>
-                    <li>9月8日</li>
-                    <li>羽丘女子高中 一年A班</li>
+                        <li class="name">千早愛音</li>
+                        <li>CV:<a href="https://x.com/ttisrn_0710">立石凜</a></li>
+                        <li>9月8日</li>
+                        <li>羽丘女子學園 高一A組</li><br>
+                        <li>
+                            <p>不僅負責 MyGO!!!!! 的吉他演奏，還負責服裝造型與社群媒體（SNS）管理。具有良好的人際溝通能力與行動力，能為朋友挺身而出。個性追星，喜歡流行事物。</p>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -68,11 +103,15 @@
                     <img src="images/tomorin.png" alt="Tomorin" id="tomorin_img" />
                 </div>
                 <div class="col-md-7">
+                    <h3 style="color: rgb(212, 183, 54);">石頭</h3>
                     <ul>
-                    <li class="name">高松燈</li>
-                    <li>CV: 羊宮妃那</li>
-                    <li>？月？日</li>
-                    <li>羽丘女子高中 一年A班</li>
+                        <li class="name">高松燈</li>
+                        <li>CV: 羊宮妃那</li>
+                        <li>11月22日</li>
+                        <li>羽丘女子學園 高一A組</li><br>
+                        <li>
+                            <p>擔任 MyGO!!!!! 的主唱與作詞，她的歌聲就像是心靈的吶喊。對事物的感受方式與他人不同，不擅長理解他人的情感。</p>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -84,11 +123,15 @@
                     <img src="images/rikki.png" alt="Rikki" id="rikki" />
                 </div>
                 <div class="col-md-7">
+                    <h3 style="color: rgb(212, 183, 54);">我現在就很幸福</h3>
                     <ul>
-                    <li class="name">椎名立希</li>
-                    <li>CV: 林鼓子</li>
-                    <li>？月？日</li>
-                    <li>花咲川</li>
+                        <li class="name">椎名立希</li>
+                        <li>CV: 林鼓子</li>
+                        <li>8月9日</li>
+                        <li>花咲川女子學園 高一B組</li><br>
+                        <li>
+                            <p>在 MyGO!!!!! 中負責鼓手與作曲。雖然說話冷淡，但其實很照顧人。平時在 live house「RiNG」打工，不過不太擅長應對客人。家中有一位大四歲的姐姐。</p>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -100,27 +143,134 @@
                     <img src="images/soyorin.png" alt="Soyorin" id="soyorin" />
                 </div>
                 <div class="col-md-7">
+                    <h3 style="color: rgb(212, 183, 54);">為什麼要演奏春日影</h3>
                     <ul>
-                    <li class="name">長崎爽世</li>
-                    <li>CV: 小日向美香</li>
-                    <li>？月？日</li>
-                    <li></li>
+                        <li class="name">長崎爽世</li>
+                        <li>CV: 小日向美香</li>
+                        <li>5月27日</li>
+                        <li>月之森女子學園 高一A組</li><br>
+                        <li>
+                            <p>擔任 MyGO!!!!! 的貝斯手。是管樂社的成員，在學校裡不僅受到社員，連班上的同學也都很依賴她，是個可靠的大姊姊般的存在。對於已經知道自己真實身分的 MyGO!!!!! 成員，能夠自在地相處，毫不拘束。</p>
+                        </li>
                     </ul>
                 </div>
             </div>
         </div>
         <!-- 貓貓 -->
-        <div id="ra-nei" class="role-content wrapper character-card" style="display: none;">
+        <div id="raane" class="role-content wrapper character-card" style="display: none;">
             <div class="row">
                 <div class="col-md-5">
-                    <img src="images/soyorin.png" alt="Ra-nei" id="ra-nei" />
+                    <img src="images/raane.png" alt="Raane" id="raane" />
                 </div>
                 <div class="col-md-7">
+                    <h3 style="color: rgb(212, 183, 54);"></h3>
                     <ul>
-                    <li class="name">要樂奈</li>
-                    <li>CV: 青木陽菜</li>
-                    <li>？月？日</li>
-                    <li></li>
+                        <li class="name">要樂奈</li>
+                        <li>CV: 青木陽菜</li>
+                        <li>2月22日</li>
+                        <li>花咲川女子學園 初三A組</li><br>
+                        <li>
+                            <p>擔任 MyGO!!!!! 的吉他手。是曾在知名女子樂團擔任吉他手的都築詩船的孫女，吉他實力相當出眾。平時喜歡隨興地造訪 live house「RiNG」，或是和貓咪玩耍，過著自由自在的生活。</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 初音 -->
+        <div id="uika" class="role-content wrapper character-card" style="display: none;">
+            <div class="row">
+                <div class="col-md-5">
+                    <img src="images/uika.png" alt="Uika" id="uika" />
+                </div>
+                <div class="col-md-7">
+                    <h3 style="color: rgb(212, 183, 54);">小祥小祥小祥小祥小祥小祥</h3>
+                    <ul>
+                        <li class="name">三角初華</li>
+                        <li>CV: 佐佐木李子</li>
+                        <li>6月26日</li>
+                        <li>花咲川女子學園 高一B組</li><br>
+                        <li>
+                            <p>同時也以偶像團體「sumimi」的成員身分活動中，喜歡觀星。與祥子是從小就認識的老朋友，對於加入樂團的邀請毫不猶豫地答應。在 Ave Mujica 中負責作詞。</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 睦 -->
+        <div id="mutsumi" class="role-content wrapper character-card" style="display: none;">
+            <div class="row">
+                <div class="col-md-5">
+                    <img src="images/mutsumi.png" alt="Mutsumi" id="mutsumi" />
+                </div>
+                <div class="col-md-7">
+                    <h3 style="color: rgb(212, 183, 54);">壓打!壓打!</h3>
+                    <ul>
+                        <li class="name">若葉睦</li>
+                        <li>CV: 渡瀨節月</li>
+                        <li>1月14日</li>
+                        <li>月之森女子學園 高一A組</li><br>
+                        <li>
+                            <p>情感不易表露，言詞拙於表達，但也有著她獨特方式關心他人的一面。父親是人氣搞笑藝人若葉，母親則是女演員森美奈美。與祥子是青梅竹馬，從小就開始彈吉他，實力相當扎實。</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 小祥 -->
+        <div id="saki" class="role-content wrapper character-card" style="display: none;">
+            <div class="row">
+                <div class="col-md-5">
+                    <img src="images/saki.png" alt="Saki" id="saki" />
+                </div>
+                <div class="col-md-7">
+                    <h3 style="color: rgb(212, 183, 54);">感謝您讓我佔用的寶貴時間</h3>
+                    <ul>
+                        <li class="name">豐川祥子</li>
+                        <li>CV: 高尾湊音</li>
+                        <li>2月14日</li>
+                        <li>羽丘女子學園 高一B組</li><br>
+                        <li>
+                            <p>身為豐川集團的千金，說話時總帶有高雅的語氣。懷著願意肩負全體成員人生的覺悟，組成了 Ave Mujica。為了守護 Ave Mujica 的世界觀，傾注全部心力。</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 海玲 -->
+        <div id="umiri" class="role-content wrapper character-card" style="display: none;">
+            <div class="row">
+                <div class="col-md-5">
+                    <img src="images/umiri.png" alt="Umiri" id="umiri" />
+                </div>
+                <div class="col-md-7"><h3 style="color: rgb(212, 183, 54);">妳還是不願信任我嗎</h3>
+                    <ul>
+                        <li class="name">八幡海玲</li>
+                        <li>CV: 岡田夢以</li>
+                        <li>4月7日</li>
+                        <li>花咲川女子學園 高一B組</li><br>
+                        <li>
+                            <p>貝斯演奏實力不輸專業等級，曾以支援身分同時參與多達 30 支樂團。在 Ave Mujica 中，負責成員的行程安排等幕後工作，處理得井然有序。</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 喵夢 -->
+        <div id="nyamu" class="role-content wrapper character-card" style="display: none;">
+            <div class="row">
+                <div class="col-md-5">
+                    <img src="images/nyamu.png" alt="Nyamu" id="nyamu" />
+                </div>
+                <div class="col-md-7">
+                    <h3 style="color: rgb(212, 183, 54);">扣尼機喵母喵母</h3>
+                    <ul>
+                        <li class="name">祐天寺若麥</li>
+                        <li>CV: 米澤茜</li>
+                        <li>6月1日</li>
+                        <li>都立藝術學院 高中一年級</li><br>
+                        <li>
+                            <p>以「喵夢」為暱稱活動的影片創作者，主要上傳彩妝教學等美容相關內容，但也為了拓展事業領域，積極挑戰各種不同的影片類型。擁有雙手靈活的優勢，打鼓風格華麗有魅力。目前就讀於藝術學院高中，專攻表演相關課程。</p>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -129,15 +279,15 @@
         <!-- JavaScript 控制顯示角色 -->
         <script>
             function showCharacter(id) {
-            const cards = document.querySelectorAll('.character-card');
-            cards.forEach(card => {
-                card.style.display = 'none';
-            });
+                const cards = document.querySelectorAll('.character-card');
+                cards.forEach(card => {
+                    card.style.display = 'none';
+                });
 
-            const selected = document.getElementById(id);
-            if (selected) {
-                selected.style.display = 'block';
-            }
+                const selected = document.getElementById(id);
+                if (selected) {
+                    selected.style.display = 'block';
+                }
             }
         </script>
     </body>
